@@ -4,6 +4,8 @@ Clone the repo `git clone https://github.com/ariefyusron/boilerplate-backend-wit
 
 Open directory `cd <project_name>`
 
+Remove `.git` folder, `rm -rf .git`
+
 and then run `npm install`
 
 
@@ -18,6 +20,6 @@ nb: don't forget run mysql
 
 ## Migration
 
-Running `npm run migrate`
-Undoing `npm run migrate-undo` this command will revert most recent migration
+Running `npm run migrate` <br>
+Undoing `npm run migrate-undo` this command will revert most recent migration <br>
 Undoing `npm run migrate-undo-all` this command will reset
