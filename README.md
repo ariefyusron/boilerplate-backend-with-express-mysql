@@ -23,3 +23,7 @@ nb: don't forget run mysql
 Running `npm run migrate` <br>
 Undoing `npm run migrate-undo` this command will revert most recent migration <br>
 Undoing `npm run migrate-undo-all` this command will reset
+
+## Endpoints
+
+https://www.getpostman.com/collections/70f409e9ef56dcd32466
