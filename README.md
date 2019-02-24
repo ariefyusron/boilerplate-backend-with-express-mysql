@@ -14,3 +14,10 @@ npm start
 ```
 
 nb: don't forget run mysql
+
+
+## Migration
+
+Running `npm run migrate`
+Undoing `npm run migrate-undo` this command will revert most recent migration
+Undoing `npm run migrate-undo-all` this command will reset
