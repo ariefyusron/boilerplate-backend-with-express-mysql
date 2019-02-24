@@ -10,8 +10,10 @@ const bodyParser = require('body-parser');
 const validator = require('express-validator');
 
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const profileRouter = require('./routes/profile');
 const authRouter = require('./routes/auth');
+
+const authMiddleware = require('./middlewares/auth');
 
 const app = express();
 
@@ -32,6 +34,6 @@ app.use(validator());
 
 app.use('/', indexRouter);
 app.use('/auth', authRouter)
-app.use('/users', usersRouter);
+app.use('/profile', authMiddleware.checkAuth, profileRouter);
 
 module.exports = app;

@@ -26,4 +26,4 @@ Undoing `npm run migrate-undo-all` this command will reset
 
 ## Endpoints
 
-https://www.getpostman.com/collections/70f409e9ef56dcd32466
+Import from Link to Postman https://www.getpostman.com/collections/70f409e9ef56dcd32466
