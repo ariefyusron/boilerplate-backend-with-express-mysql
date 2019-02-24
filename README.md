@@ -1,6 +1,6 @@
 ## Setup
 
-Clone the repo `git clone https://github.com/ariefyusron/urbanhire-backend-test-with-express.git <project_name>`
+Clone the repo `git clone https://github.com/ariefyusron/boilerplate-backend-with-express-mysql.git <project_name>`
 
 Open directory `cd <project_name>`
 
